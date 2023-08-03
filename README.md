@@ -78,4 +78,4 @@ PLEASE SWAP INFORMATION FOR YOUR OWN 😉
 
 ##### Want to create your own README.md ?
 
-<a href="https://readme.so/" target="_blank">Go to this link</a>
+[Go to this link](https://readme.so/)
