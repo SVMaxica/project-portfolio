@@ -3,6 +3,9 @@
 Congratulations on completing Sprint 2 of the boot camp! For the final phase, we will now take your skills in React to the next level by building your very own portfolio website using the concepts learned in class
 
 ## Set up your own version of your portfolio
+[Check this projects instructions here](https://vitejs.dev/guide/)
+
+## Set up your own version of your portfolio
 
 We will use [Vite](https://vitejs.dev/guide/) to setup our project 😉
 
