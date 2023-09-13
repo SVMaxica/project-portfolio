@@ -5,7 +5,7 @@
 
 The portfolio will be a great test of your HTML and CSS skills but we will also take the opportunity to get started with accessibility and build websites for everyone – something every frontend developer should know. Don't save until the last day to do the testing – it's very much the task of this project and will take some time.
 
-<img src="https://file.notion.so/f/s/72dad116-4d2d-42a7-a5bc-6761e1f24876/Preview-PortfolioWebDev-Technigo.png?id=4b238c0a-5a0f-4281-a704-508851ab42c9&table=block&spaceId=5fa017c8-3fef-4115-8b2f-0177cad64ebc&expirationTimestamp=1694736000000&signature=hLtukYkX4LNc8MZ40FiPe8mfDSPakJy6qi7R_Jk_kZA&downloadName=Preview-PortfolioWebDev-Technigo.png" alt="" />
+<img src="https://github.com/Technigo/project-portfolio/blob/main/Preview-PortfolioWebDev-Technigo.png" alt="" />
 
 We've created a portfolio design for you that you should follow. You are free to change the colors and images to fit you, and of course all the content. If you have any written articles or blog posts that you feel is relevant, there’s a section for that in the portfolio. If you don’t have that (yet), feel free to leave that part out.
 
