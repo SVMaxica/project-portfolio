@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="">
-    <img src="/src/react-portfolio.svg" alt="Project Banner Image">
+    <img src="/react-portfolio.svg" alt="Project Banner Image">
   </a>
 </h1>
 
