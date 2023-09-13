@@ -1,6 +1,57 @@
 **React Portfolio Project Brief**
 =================================
 
+## Instructions 
+
+The portfolio will be a great test of your HTML and CSS skills but we will also take the opportunity to get started with accessibility and build websites for everyone – something every frontend developer should know. Don't save until the last day to do the testing – it's very much the task of this project and will take some time.
+
+<img src="https://file.notion.so/f/s/72dad116-4d2d-42a7-a5bc-6761e1f24876/Preview-PortfolioWebDev-Technigo.png?id=4b238c0a-5a0f-4281-a704-508851ab42c9&table=block&spaceId=5fa017c8-3fef-4115-8b2f-0177cad64ebc&expirationTimestamp=1694736000000&signature=hLtukYkX4LNc8MZ40FiPe8mfDSPakJy6qi7R_Jk_kZA&downloadName=Preview-PortfolioWebDev-Technigo.png" alt="" />
+
+We've created a portfolio design for you that you should follow. You are free to change the colors and images to fit you, and of course all the content. If you have any written articles or blog posts that you feel is relevant, there’s a section for that in the portfolio. If you don’t have that (yet), feel free to leave that part out.
+
+We want you to practise following a design strictly, this is normally how the work flow is for a frontend developer, to work together with a designer that provides a design file, (in Figma) for you to translate into code.
+
+If you work as a designer and really hate our design you could pitch to us why you would make a better job, and hand in your own design file for us to evaluate. But otherwise, this design comes from an experienced designer in collaboration with the expertise from a recruiter that knows what recruiters look at.
+
+### **The portfolio should contain:**
+
+-   A picture of you.
+-   A presentation of the tech skills that you have.
+-   A presentation of your projects linking to GitHub and Netlify.
+-   A presentation of some thoughts that you have around code.
+-   A clear way to get in contact with you.
+
+### Test your website 👷🏻‍♂️
+
+A big part of this project is to test your page so that it works for all the most used browsers and works well for people with disabilities.
+
+**1\. Cross-browser testing**
+
+You should make sure that your page is looking and function like you would want in the following web browsers:
+
+-   Google Chrome
+-   Firefox
+-   Microsoft Edge
+-   (optional Safari for Mac users)
+
+If you're on a Mac or Linux computer, you can download Edge [here](https://www.microsoft.com/en-us/edge).
+
+Follow the [Workflow for cross-browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction) when testing your sites.
+
+**2\. Accessibility testing**
+
+The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
+
+When you publish your website, you can use the built-in screen reader on your phone for the screen reader test. Google that, to see how to turn it on for your phone.
+
+### Stretch goals
+
+- Optimize your website for sharing on social media using og:tags.
+- Give your portfolio a custom domain and connect to your deployed site. [Read more](https://docs.netlify.com/domains-https/custom-domains/).
+
+
+-----
+
 Congratulations on completing Sprint 2 of the boot camp! For the final phase, we will now take your skills in React to the next level by building your very own portfolio website using the concepts learned in class:
 
 1.  **Components and Props:**
