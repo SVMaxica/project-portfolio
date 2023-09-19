@@ -91,7 +91,6 @@ Congratulations on completing Sprint 2 of the boot camp! For the final phase, we
 
 Important Notes:
 
--   Your portfolio is an opportunity to showcase your creativity, design skills, and attention to detail. Feel free to customise the design to represent your personal brand. [If you feel like you need a template to go from use this design template that we have created for you 👐](https://www.figma.com/file/5KoFymBu6dnyy3wOC4a5Zz/Web-Dev-Portfolio-2023?type=design&mode=design&t=VVF3dqiZzgHwSDUC-0)
 -   Demonstrate your proficiency in React by writing clean, efficient, and well-structured code.
 -   Ensure that your website is fully functional and that all components work as intended.
 -   Test your portfolio thoroughly to guarantee cross-browser compatibility and responsiveness.
