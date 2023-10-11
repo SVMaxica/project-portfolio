@@ -49,7 +49,7 @@
           },
           {
             "name": "Travel survey",
-            "image": ".public/note.jpg",
+            "image": ".public/travel.jpg",
             "tags": [
               "HTML5",
               "CSS3",
@@ -61,7 +61,7 @@
           },    
           {
             "name": "Happy thoughts",
-            "image": "",
+            "image": ".public/thoughts.jpg",
             "tags": [
               "HTML5",
               "CSS3",
