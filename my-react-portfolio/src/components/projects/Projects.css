@@ -1,0 +1,93 @@
+.projects {
+    background-image: url('../../assets/wave.svg'); /* Adjust the path accordingly */
+    background-repeat: repeat-x; /* Repeat the wave horizontally */
+    background-size: contain; /* Adjust this if you want to change the size of the wave */
+    padding-bottom: 20px; /* Space for the wave so it doesn't overlap content */
+    margin-bottom: 20px; /* Additional spacing between components */
+}
+
+
+.projects-wrapper {
+    display: flex; /*inline-flex*/
+    padding: 128px 346px 124px 346px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projects-wrapper h1 {
+    color: #0B24F5;
+ }
+
+ .project-content-wrapper {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 128px;
+ }
+
+.project-card {
+    display:flex;
+    width: 820px;
+    height: 280px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin-top: none;
+    margin-bottom: 20px; /*distance between cards*/
+}
+
+.project-image {
+    width: 280px;
+    height: 260px;
+    flex-shrink: 0;
+    border-bottom: 20px solid #0B24F5;
+border-left: 20px solid #0B24F5;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-grow: 1; /* Take available space ???????*/
+    padding-left: 40px; 
+    padding-right: 10px;
+    border: none;
+}
+
+.project-details p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-tags {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.project-details h3, 
+.project-details p, 
+.project-details .project-tags, 
+.project-details .project-buttons {
+    margin: 0; /* remove all margins from child elements */
+    border: none; /* ensure there's no border */
+}
+
+.project-buttons {
+    display: flex; /* This will lay out its children (i.e., the buttons) in a row by default */
+    gap: 10px;     /* This adds spacing between the buttons */
+}
+
+.project-tags span {
+    background-color: black;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+

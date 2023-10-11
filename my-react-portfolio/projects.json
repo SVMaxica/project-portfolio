@@ -2,7 +2,8 @@
     "projects": [
         {
             "name": "Chatbot",
-            "image": ".public/food.jpg",
+            "description": "A user-friendly chatbot for a restaurant, allowing customers to make reservations and order food.",
+            "image": "/images/food.jpg",
             "tags": [
                 "HTML5",
                 "CSS3",
@@ -13,7 +14,8 @@
         },
         {
           "name": "Weather app",
-          "image": ".public/weather.jpg",
+          "description": "An intuitive weather application that provides real-time weather updates based on city, including forecasts and weather conditions.",
+          "image": "/images/weather.jpg",
           "tags": [
             "HTML5",
             "CSS3",
@@ -25,7 +27,8 @@
         },
         {
             "name": "Guess who game",
-            "image": ".public/gameboy.jpg",
+            "description": "An engaging game where players must guess the correct character based on hints. A modern spin on a classic game.",
+            "image": "/images/gameboy.jpg",
             "tags": [
               "HTML5",
               "CSS3",
@@ -36,7 +39,8 @@
           },
           {
             "name": "Spotify music releases",
-            "image": ".public/music.jpg",
+            "description": "A dynamic platform showcasing the latest music releases on Spotify. Integrated with the Spotify API to fetch real-time data.",
+            "image": "/images/music.jpg",
             "tags": [
               "HTML5",
               "CSS3",
@@ -49,7 +53,8 @@
           },
           {
             "name": "Travel survey",
-            "image": ".public/travel.jpg",
+            "description": "A survey form designed for travel enthusiasts to give travel suggestions.",
+            "image": "/images/travel.jpg",
             "tags": [
               "HTML5",
               "CSS3",
@@ -61,7 +66,8 @@
           },    
           {
             "name": "Happy thoughts",
-            "image": ".public/thoughts.jpg",
+            "description": "A twitterlike platform for users to share positive thoughts and messages. Includes features like 'like' counts and real-time addition of new messages.",
+            "image": "/images/thoughts.jpg",
             "tags": [
               "HTML5",
               "CSS3",

@@ -1,0 +1,7 @@
+.articles {
+    background-image: url('../../assets/wave.svg'); /* Adjust the path accordingly */
+    background-repeat: repeat-x; /* Repeat the wave horizontally */
+    background-size: contain; /* Adjust this if you want to change the size of the wave */
+    padding-bottom: 20px; /* Space for the wave so it doesn't overlap content */
+    margin-bottom: 20px; /* Additional spacing between components */
+}
