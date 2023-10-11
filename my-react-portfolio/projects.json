@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "name": "Chatbot",
+            "image": ".public/food.jpg",
+            "tags": [
+                "HTML5",
+                "CSS3",
+                "JavaScript"
+            ],
+            "netlify": "https://bobtherestaurantbot.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-chatbot"
+        },
+        {
+          "name": "Weather app",
+          "image": ".public/weather.jpg",
+          "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "APIs"
+          ],
+          "netlify": "https://sandraandmannesweatherapp.netlify.app/",
+          "github": "https://github.com/SVMaxica/project-weather-app"
+        },
+        {
+            "name": "Guess who game",
+            "image": ".public/gameboy.jpg",
+            "tags": [
+              "HTML5",
+              "CSS3",
+              "JavaScript"
+            ],
+            "netlify": "http://sandrasmusicreleaseproject.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-music-releases-vite"
+          },
+          {
+            "name": "Spotify music releases",
+            "image": ".public/music.jpg",
+            "tags": [
+              "HTML5",
+              "CSS3",
+              "JavaScript",
+              "APIs",
+              "React"
+            ],
+            "netlify": "https://sandraandmannesweatherapp.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-weather-app"
+          },
+          {
+            "name": "Travel survey",
+            "image": ".public/note.jpg",
+            "tags": [
+              "HTML5",
+              "CSS3",
+              "JavaScript",
+              "React"
+            ],
+            "netlify": "https://brilliant-dusk-90384c.netlify.app/",
+            "github": "https://github.com/klaudiaW0410/project-survey-vite/tree/main"
+          },    
+          {
+            "name": "Happy thoughts",
+            "image": "",
+            "tags": [
+              "HTML5",
+              "CSS3",
+              "JavaScript",
+              "React",
+              "APIs"
+            ],
+            "netlify": "https://frolicking-chaja-ff29d1.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-happy-thoughts-vite"
+          }     
+    ]
+  }
