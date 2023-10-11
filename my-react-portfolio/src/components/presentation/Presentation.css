@@ -1,28 +1,54 @@
+.presentation-wrapper {
+  display: inline-flex;
+padding: 332px 337px 64px 336px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 199px;
+}
+
 .presentation {
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: white;
-    padding: 10px; /* Adjust as needed for spacing */
-    text-align: center; /* This centers the text within the container */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 230px; /*needed to get the gap to blue page?*/
+  }
+
+  .presentation-titles-container {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+  }
+
+  .presentation-titles-container h1 {
+    margin: 0;
+    color: blue;
+  }
+
+  .presentation-titles-container h3 {
+    margin: 0;
   }
   
   .profile-section {
-    align-self: center;
-    display: flex; /* Use Flexbox to align items side by side */
-    align-items: center; /* Vertically align the image and text in the middle */
-    gap: 15px; /* Spacing between image and text */
+    display: flex;
+align-items: center;
+gap: 22px;
   }
   
   .profile-image {
-    width: 100px; /* Adjust to desired width */
-    height: 100px;
+    width: 164px; /* Adjust to desired width */
+    height: 164px;
     border-radius: 50%; /* Makes the image round */
     object-fit: cover;
   }
   
   .presentation-text {
-    font-size: xx-small;
-    max-width: 600px; /* Adjust width as needed. This ensures text does not stretch too far on wide screens */
-    margin: 0 auto; /* Center the text horizontally if it wraps to a new line */
+    color: #000;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   
