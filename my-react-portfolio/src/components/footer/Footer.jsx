@@ -1,8 +1,10 @@
-/* eslint-disable react/prop-types */
-import React from 'react'
+
+import './Footer.css';
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <div className="footer-text">Sandra Gustafsson Frontend Developer</div>
+    </footer>
+  );
+};

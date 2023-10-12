@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import { Projects } from './components/projects/Projects';
 import { Presentation } from './components/presentation/Presentation';
 import { Tech } from './components/tech/Tech';
@@ -11,12 +11,26 @@ import './App.css';
 export const App = () => {
   return (
     <div>
-      <Presentation />
+      {/* <Presentation />
       <Tech />
       <Projects />
-      <Articles />
+      <Articles articles={[
+    {
+        imageUrl: "path_to_image1.jpg",
+        title: "Article 1",
+        preview: "This is a short preview of Article 1...",
+        link: "#"
+    },
+    {
+        imageUrl: "path_to_image2.jpg",
+        title: "Article 2",
+        preview: "This is a short preview of Article 2...",
+        link: "#"
+    },
+]} />
+
       <Skills />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   )

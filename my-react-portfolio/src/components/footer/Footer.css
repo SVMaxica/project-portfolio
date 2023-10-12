@@ -1,0 +1,27 @@
+.footer {
+    background-color: pink;
+    height: 50px; /* adjust as needed */
+    overflow: hidden; /* ensures the content outside the div boundaries is hidden */
+    position: relative;
+}
+
+.footer-text {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    font-size: 20px; /* adjust as needed */
+    color: white;
+
+    /* Animation */
+    animation: slideText 10s linear infinite; /* adjust duration as needed */
+}
+
+@keyframes slideText {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
