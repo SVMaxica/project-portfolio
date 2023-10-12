@@ -1,32 +1,30 @@
-.articles-wrapper:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 11px;
-    top: -5px;
-    background-image: url('../../assets/wave2.svg'); 
-    background-repeat: repeat-x; 
-    background-size: auto 10px;
-    z-index: 2;
-    
 
-}
-
-/* Articles.css */
 .articles-wrapper {
-    background-color: pink;
- position: relative;
- padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Use full available width */
-    overflow: auto;
-    padding-bottom: 20px; /* Allows scrolling if needed */
-    padding-left: 0;   /* Ensure no left padding */
-    margin-left: 0; 
+    width: 100%; 
+    padding-bottom: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    background-color: pink;
+    background-image: url('../../assets/wave_optimized.svg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding-top:35px; 
+    position: relative;
+    z-index: 0;
+}
+
+.wavy-line {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wavy-line svg {
+    width: 100%;
+    display: block;
 }
 
 .articles-wrapper h1 {

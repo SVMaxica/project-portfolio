@@ -11,7 +11,7 @@ import './App.css';
 export const App = () => {
   return (
     <div>
-      {/* <Presentation />
+      <Presentation />
       <Tech />
       <Projects />
       <Articles articles={[
@@ -30,7 +30,7 @@ export const App = () => {
 ]} />
 
       <Skills />
-      <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   )

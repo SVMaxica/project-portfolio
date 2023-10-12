@@ -1,6 +1,6 @@
-.footer {
-    background-color: pink;
-    height: 50px; /* adjust as needed */
+footer {
+    background-color: #FF4575;
+    height: 70px;
     overflow: hidden; /* ensures the content outside the div boundaries is hidden */
     position: relative;
 }
@@ -9,19 +9,20 @@
     white-space: nowrap;
     position: absolute;
     top: 50%; 
+    left: 100%; /* start off-screen to the right */
     transform: translateY(-50%);
-    font-size: 20px; /* adjust as needed */
+    font-size: 24px; 
     color: white;
 
     /* Animation */
-    animation: slideText 10s linear infinite; /* adjust duration as needed */
+    animation: slideText 10s linear infinite; 
 }
 
 @keyframes slideText {
-    from {
-        left: 100%;
+    0% {
+        left: 0; 
     }
-    to {
-        left: -100%;
+    100% {
+        left: -50%; /* Adjust this to control the restart point */
     }
 }

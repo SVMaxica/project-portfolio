@@ -1,18 +1,17 @@
-.projects {
-    background-image: url('../../assets/wave.svg'); /* Adjust the path accordingly */
-    background-repeat: repeat-x; /* Repeat the wave horizontally */
-    background-size: contain; /* Adjust this if you want to change the size of the wave */
-    padding-bottom: 20px; /* Space for the wave so it doesn't overlap content */
-    margin-bottom: 20px; /* Additional spacing between components */
-}
+
 
 
 .projects-wrapper {
-    display: flex; /*inline-flex*/
+    display: flex; 
     padding: 128px 346px 124px 346px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;  
+    padding-bottom: 30px; 
+
 }
 
 .projects-wrapper h1 {

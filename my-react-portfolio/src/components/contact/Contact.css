@@ -2,12 +2,12 @@
 
 .contact-wrapper {
     display: flex;
-    width: 1512px;
+
     padding: 128px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 128px;
+  
 }
 
 

@@ -49,6 +49,8 @@ const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {
 export const Articles = () => {
 
   return (
+   
+
     <div className='articles-wrapper'>
             <h1>My Words</h1>
     
