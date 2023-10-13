@@ -1,6 +1,8 @@
 import './Articles.css';
 import { Buttons } from '../Buttons/Buttons';
-
+import { ReactSVG } from 'react-svg';
+import wavePath from '../../assets/wave2.svg';
+import { useState, useEffect } from 'react';
 
 const exampleArticles = [
   {
@@ -48,25 +50,38 @@ const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {
 
 export const Articles = () => {
 
-  return (
-   
+    const [svgCount, setSvgCount] = useState(1);
 
-    <div className='articles-wrapper'>
-            <h1>My Words</h1>
+    useEffect(() => {
+        // Assuming the width of your SVG is 176 pixels, adjust if needed
+        const svgWidth = 176; 
     
-            <div className="articles-grid">
-                {exampleArticles.map(article => 
-                    <ArticleCard 
-                        key={article.title} 
-                        imageUrl={article.imageUrl} 
-                        publishDate={article.publishDate}
-                        title={article.title} 
-                        preview={article.preview} 
-                        link={article.link} 
-                    />
-                )}
+        // Calculate the number of SVGs needed to fill the viewport width
+        const count = Math.ceil(window.innerWidth / svgWidth);
+        setSvgCount(count);
+      }, []);
 
-    </div>
-    </div>
+  return (
+  <>
+  <div className='wavy-line'>
+        {Array.from({ length: svgCount }).map((_, index) => (
+          <ReactSVG key={index} src={wavePath} />
+        ))}
+      </div>
+      <div className='articles-wrapper'>
+              <h1>My Words</h1>
+              <div className="articles-grid">
+                  {exampleArticles.map(article => <ArticleCard
+                      key={article.title}
+                      imageUrl={article.imageUrl}
+                      publishDate={article.publishDate}
+                      title={article.title}
+                      preview={article.preview}
+                      link={article.link} />
+                  )}
+
+              </div>
+          </div>
+          </>
   );
 };
