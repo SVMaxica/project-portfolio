@@ -1,8 +1,6 @@
 import './Articles.css';
 import { Buttons } from '../Buttons/Buttons';
-import { ReactSVG } from 'react-svg';
-import wavePath from '../../assets/wave2.svg';
-import { useState, useEffect } from 'react';
+import waveLine from '../../assets/divider.png';
 
 const exampleArticles = [
   {
@@ -50,24 +48,12 @@ const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {
 
 export const Articles = () => {
 
-    const [svgCount, setSvgCount] = useState(1);
-
-    useEffect(() => {
-        // Assuming the width of your SVG is 176 pixels, adjust if needed
-        const svgWidth = 176; 
-    
-        // Calculate the number of SVGs needed to fill the viewport width
-        const count = Math.ceil(window.innerWidth / svgWidth);
-        setSvgCount(count);
-      }, []);
 
   return (
-  <>
-  <div className='wavy-line'>
-        {Array.from({ length: svgCount }).map((_, index) => (
-          <ReactSVG key={index} src={wavePath} />
-        ))}
-      </div>
+<>
+      {/* <div className='divider-wrapper'>
+        <img src={waveLine} alt='dividing line between slides'></img>
+      </div> */}
       <div className='articles-wrapper'>
               <h1>My Words</h1>
               <div className="articles-grid">
@@ -82,6 +68,6 @@ export const Articles = () => {
 
               </div>
           </div>
-          </>
-  );
+          </>  
+  ); 
 };

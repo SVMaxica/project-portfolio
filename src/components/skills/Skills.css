@@ -17,8 +17,7 @@
 .skills-grid {
     display: flex;
     justify-content: center;
-    padding: 128px 338px;
-    gap: 64px;
+  
 }
 
 .skills-column {

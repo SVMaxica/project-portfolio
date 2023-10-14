@@ -14,21 +14,7 @@ export const App = () => {
       <Presentation />
       <Tech />
       <Projects />
-      <Articles articles={[
-    {
-        imageUrl: "path_to_image1.jpg",
-        title: "Article 1",
-        preview: "This is a short preview of Article 1...",
-        link: "#"
-    },
-    {
-        imageUrl: "path_to_image2.jpg",
-        title: "Article 2",
-        preview: "This is a short preview of Article 2...",
-        link: "#"
-    },
-]} />
-
+      <Articles />
       <Skills />
       <Contact />
       <Footer />
