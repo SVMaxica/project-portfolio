@@ -1,19 +1,24 @@
 .presentation-wrapper {
   width:100vw;
-  display: grid;
-  place-items: center; /* centers everything both horizontally and vertically */
   gap: 10px; 
-  grid-template-columns: repeat(8,1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 
 .presentation {
-  grid-column: 2/8;
-  display: grid;
-    gap: 16px; /* adjust the spacing between items as needed */
-    place-items: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+  }
 
+  .presentation-content {  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   
@@ -25,7 +30,7 @@
   }
 
   .presentation-titles-container h3 {
-margin: 0;
+    margin: 0;
     text-align: center;
   }
   
@@ -34,8 +39,9 @@ margin: 0;
     height: 164px;
     border-radius: 50%; /* Makes the image round */
     object-fit: cover;
-    margin: 0 auto;
+ 
     margin-top: 100px;
+    
   }
   
   .presentation-text {
@@ -57,73 +63,145 @@ margin: 0;
     margin-top: 80px;
     margin-bottom: 100px;
 }
-@media (max-width: 550px) {
+
+/* Small devices (phones, 600px and under) */
+@media (max-width: 600px) {
 
 .presentation {
-  display: grid;
-grid-template-columns: 2/8;
+  max-width: 320px;
+}
+
+.presentation-titles-container h1 {
+  font-size: 30px;
+}
+.presentation-titles-container h3 {
+  font-size: 24px;
+  margin-top: 50px;
 }
 
 .presentation-text {
-  height: auto;
-
+  font-size: 14px;
 }
 
  
 }
 
-
-  @media (min-width: 768px) and (max-width: 1023px){  /* adjust this breakpoint as needed */
+/* Medium devices (tablets, 601px - 900px) */
+  @media (min-width: 601px) and (max-width: 900px){  /* adjust this breakpoint as needed */
    
-    .presentation-wrapper {
-      display: grid;
-      gap: 20px;
-      place-items: center; /* added this line to ensure centering */
+
+.presentation {
+   flex-direction: row;
+    gap: 20px;
+    padding-top: 150px;
+}
+
+.profile-image {
+  margin-top: -200px;  /* Reset margin-top for larger screens */
+}
+
+.presentation-content {  /* Target the new class for larger screens */
+  align-self: center;
+}
+
+.presentation-titles-container h1 {
+
+  font-size: 30px;
+}
+.presentation-titles-container h3 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.presentation-text {
+  font-size: 14px;
+  width: 310px;
+}
+
+img[src*='Arrow'] {
+  padding-right: 180px;
+}
+
   }
-
-
-   .presentation {
-    display: grid;
-grid-template-columns: 3/6;
-        grid-template-areas:
-            "image"
-            "titles"
-            "text"
-            "arrow";
-    }
+  
+  
+  /* Large devices (desktops, 901px - 1200px) */
+  @media (min-width: 901px) and (max-width: 1200px){  /* typical desktop breakpoint */
     
-    .profile-image {
-      grid-area: image; /* places image at the top */
-    }
-    
-    .presentation-text {
-     grid-area: text; 
-    }
-  
-    .presentation-titles-container {
-      grid-area: titles; /* places titles below the image */
-    }
-    .presentation-text {
-      grid-area: text; /* places text below the titles */
-  }
-
-  img[src*='Arrow'] {
-      grid-area: arrow; /* places arrow at the bottom */
-  }
-  
-  
-  @media (min-width: 1024px) and (max-width: 1439px){  /* typical desktop breakpoint */
     .presentation {
-      grid-template-columns: 4/5;
-    }
-       
-       
+      flex-direction: row;
+       gap: 20px;
+       padding-top: 150px;
+   }
+   
+   .profile-image {
+     margin-top: -200px;  /* Reset margin-top for larger screens */
+   }
+   
+   .presentation-content {  /* Target the new class for larger screens */
+     align-self: center;
+   }
+   
+   .presentation-titles-container h1 {
+   
+     font-size: 30px;
+   }
+   .presentation-titles-container h3 {
+     font-size: 24px;
+     margin-top: 50px;
+   }
+   
+   .presentation-text {
+     font-size: 14px;
+     width: 310px;
+   }
+   
+   img[src*='Arrow'] {
+     padding-right: 180px;
+   }
+ 
 }
 
-@media (min-width: 1440px) {  /* breakpoint for large screens */
   
-  .presentation {
-    grid-template-columns: 4/5;
-}
+       
 
+
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {  /* breakpoint for large screens */
+
+  .presentation {
+    flex-direction: row;
+     gap: 20px;
+     padding-top: 150px;
+ }
+ 
+ .profile-image {
+   margin-top: -200px;  /* Reset margin-top for larger screens */
+ }
+ 
+ .presentation-content {  /* Target the new class for larger screens */
+   align-self: center;
+ }
+ 
+ .presentation-titles-container h1 {
+ 
+   font-size: 30px;
+ }
+ .presentation-titles-container h3 {
+   font-size: 24px;
+   margin-top: 50px;
+ }
+ 
+ .presentation-text {
+   font-size: 14px;
+   width: 310px;
+ }
+ 
+ img[src*='Arrow'] {
+   padding-right: 180px;
+ }
 }
+    
+
+
+
