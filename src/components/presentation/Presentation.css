@@ -1,210 +1,117 @@
 .presentation-wrapper {
-  width:100vw;
-  gap: 10px; 
+  width: 100vw;
+  gap: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  z-index: 0;
 }
 
-
 .presentation {
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- width: 100%;
-  }
-
-  .presentation-content {  
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  
-
-  .presentation-titles-container h1 {
-  margin: 0;
-    color: blue;
-    text-align: center;
-  }
-
-  .presentation-titles-container h3 {
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-  }
-  
-
-  .profile-image {
-    width: 164px; /* Adjust to desired width */
-    height: 164px;
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover;
- 
-    margin-top: 100px;
-    
-  }
-  
-  .presentation-text {
-    color: #000;
-    font-family: Hind;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    word-wrap: break-word;
-    width:100%;
-  }
-
-  img[src*='Arrow'] {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: auto; 
-    margin-top: 80px;
-    margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
-/* Small devices (phones, 600px and under) */
-@media (max-width: 600px) {
-
-.presentation {
-  max-width: 320px;
+.presentation-content {  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .presentation-titles-container h1 {
-  font-size: 30px;
+  margin: 0;
+  color: blue;
+  text-align: center;
+  font-size: 29px;
 }
+
 .presentation-titles-container h3 {
-  font-size: 24px;
-  margin-top: 50px;
-}
-
-.presentation-text {
-  font-size: 14px;
-}
-
- 
-}
-
-/* Medium devices (tablets, 601px - 900px) */
-  @media (min-width: 601px) and (max-width: 900px){  /* adjust this breakpoint as needed */
-   
-
-.presentation {
-   flex-direction: row;
-    gap: 20px;
-    padding-top: 150px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
 }
 
 .profile-image {
-  margin-top: -200px;  /* Reset margin-top for larger screens */
-}
-
-.presentation-content {  /* Target the new class for larger screens */
-  align-self: center;
-}
-
-.presentation-titles-container h1 {
-
-  font-size: 30px;
-}
-.presentation-titles-container h3 {
-  font-size: 24px;
-  margin-top: 50px;
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .presentation-text {
+
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #000;
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-wrap: break-word;
+  width:300px;
   font-size: 14px;
-  width: 310px;
+}
+
+.presentation-text p {
+  text-align: center;
 }
 
 img[src*='Arrow'] {
-  padding-right: 180px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto; 
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
+/* Medium devices (tablets, 601px - 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .presentation-wrapper {
+    width: 100%;
+    padding-top: 150px;
   }
-  
-  
-  /* Large devices (desktops, 901px - 1200px) */
-  @media (min-width: 901px) and (max-width: 1200px){  /* typical desktop breakpoint */
-    
-    .presentation {
-      flex-direction: row;
-       gap: 20px;
-       padding-top: 150px;
-   }
-   
-   .profile-image {
-     margin-top: -200px;  /* Reset margin-top for larger screens */
-   }
-   
-   .presentation-content {  /* Target the new class for larger screens */
-     align-self: center;
-   }
-   
-   .presentation-titles-container h1 {
-   
-     font-size: 30px;
-   }
-   .presentation-titles-container h3 {
-     font-size: 24px;
-     margin-top: 50px;
-   }
-   
-   .presentation-text {
-     font-size: 14px;
-     width: 310px;
-   }
-   
-   img[src*='Arrow'] {
-     padding-right: 180px;
-   }
- 
-}
-
-  
-       
-
-
-/* Extra large devices (large desktops, 1201px and up) */
-@media (min-width: 1201px) {  /* breakpoint for large screens */
 
   .presentation {
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation-content {
     flex-direction: row;
-     gap: 20px;
-     padding-top: 150px;
- }
- 
- .profile-image {
-   margin-top: -200px;  
- }
- 
- .presentation-content { 
-   align-self: center;
- }
- 
- .presentation-titles-container h1 {
- 
-   font-size: 30px;
- }
- .presentation-titles-container h3 {
-   font-size: 24px;
-   margin-top: 50px;
- }
- 
- .presentation-text {
-   font-size: 14px;
-   width: 310px;
- }
- 
- img[src*='Arrow'] {
-   padding-right: 180px;
- }
+    align-items: center;
+  }
+  
+  .profile-image {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .presentation-text {
+    font-size: 16px;
+    width: 270px;
+  }
+
+  .presentation-titles-container h3 {
+    text-align: left;
+  }
+  .presentation-titles-container h1 {
+    font-size: 50px;
+    text-align: left;
+  }
 }
-    
 
+/* Large devices (desktops, 901px - 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  
+}
 
-
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {
+  
+}

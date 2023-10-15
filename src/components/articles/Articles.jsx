@@ -1,5 +1,6 @@
 import './Articles.css';
 import { Buttons } from '../Buttons/Buttons';
+import ReadMoreSVG from '../../assets/note-rounded-square-interface-symbol-svgrepo-com.svg'
 import waveLine from '../../assets/dividerLarge.png';
 
 const exampleArticles = [
@@ -41,7 +42,7 @@ const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {
           <span className="publish-date">{publishDate}</span>
               <h3>{title}</h3>
               <p>{preview}</p>
-              <Buttons type="read-more" text="Read More" href={link} />
+              <Buttons type="read-more" text="Read More" icon={<img src={ReadMoreSVG} alt="Icon" />}href={link} />
       </div>
   );
 };
@@ -51,9 +52,9 @@ export const Articles = () => {
 
   return (
 <>
-      {/* <div className='divider-wrapper'>
+     <div className='divider-wrapper'>
         <img src={waveLine} alt='dividing line between slides'></img>
-      </div> */}
+      </div> 
       <div className='articles-wrapper'>
               <h1>My Words</h1>
               <div className="articles-grid">
