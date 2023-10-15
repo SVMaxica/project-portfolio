@@ -1,6 +1,6 @@
 import './Articles.css';
 import { Buttons } from '../Buttons/Buttons';
-import waveLine from '../../assets/divider.png';
+import waveLine from '../../assets/dividerLarge.png';
 
 const exampleArticles = [
   {

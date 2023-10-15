@@ -13,6 +13,7 @@
  align-items: center;
  justify-content: center;
  flex-direction: column;
+ width: 100%;
   }
 
   .presentation-content {  
@@ -32,8 +33,10 @@
   .presentation-titles-container h3 {
     margin: 0;
     text-align: center;
+    justify-content: center;
   }
   
+
   .profile-image {
     width: 164px; /* Adjust to desired width */
     height: 164px;
@@ -176,10 +179,10 @@ img[src*='Arrow'] {
  }
  
  .profile-image {
-   margin-top: -200px;  /* Reset margin-top for larger screens */
+   margin-top: -200px;  
  }
  
- .presentation-content {  /* Target the new class for larger screens */
+ .presentation-content { 
    align-self: center;
  }
  

@@ -14,7 +14,7 @@ export const Contact = () => {
             <img src={profileImage} alt="Profile" className="profile-image" />
             <div className='contact-text'>
             <p>Sandra Gustafsson</p>
-            <p>+46704292859</p>
+            <p>+46(0)70 429 28 59</p>
             <p>svmaxica@gmail.com</p>
             </div>
             <div className="social-media-icons">

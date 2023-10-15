@@ -3,11 +3,12 @@
     outline: 1px solid red;
   }  
 
+
+
   body, html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    /*overflow-x: hidden;  /* to prevent any unexpected horizontal scrolling */
+    width: 100vw;
   }
 
 p {

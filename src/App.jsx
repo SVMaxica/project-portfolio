@@ -10,7 +10,7 @@ import './App.css';
 
 export const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
       <Presentation />
       <Tech />
       <Projects />

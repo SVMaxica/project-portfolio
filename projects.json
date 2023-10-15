@@ -14,7 +14,7 @@
         },
         {
           "name": "Weather app",
-          "description": "An intuitive weather application that provides real-time weather updates based on city, including forecasts and weather conditions.",
+          "description": "An intuitive weather application with real-time weather updates based on city, including forecasts.",
           "image": "/images/weather.jpg",
           "tags": [
             "HTML5",
@@ -27,7 +27,7 @@
         },
         {
             "name": "Guess who game",
-            "description": "An engaging game where players must guess the correct character based on hints. A modern spin on a classic game.",
+            "description": "An engaging game where players must guess the correct character based on hints.",
             "image": "/images/gameboy.jpg",
             "tags": [
               "HTML5",
@@ -39,7 +39,7 @@
           },
           {
             "name": "Spotify music releases",
-            "description": "A dynamic platform showcasing the latest music releases on Spotify. Integrated with the Spotify API to fetch real-time data.",
+            "description": "A platform showcasing the latest music releases on Spotify. Spotify API to fetch real-time data.",
             "image": "/images/music.jpg",
             "tags": [
               "HTML5",
@@ -66,7 +66,7 @@
           },    
           {
             "name": "Happy thoughts",
-            "description": "A twitterlike platform for users to share positive thoughts and messages. Includes features like 'like' counts and real-time addition of new messages.",
+            "description": "A twitterlike platform for users to share positive thoughts and messages.",
             "image": "/images/thoughts.jpg",
             "tags": [
               "HTML5",

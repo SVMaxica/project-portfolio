@@ -4,51 +4,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .skills-wrapper h1 {
-    margin-bottom: 25px;
     color: #FFF;
-}
-
-
-
-.skills-grid {
-    display: flex;
-    justify-content: center;
-  
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    padding-bottom: 50px;
+   
 }
 
 .skills-column {
-    flex: 1;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1fr);
     align-items: center;
-    flex-direction: column;
+    text-align: center; 
 }
 
 .skills-column h3 {
     color: #FFF;
+    font-size: 24px;
+    margin: 0;
 }
 
 .skills-column p {
     margin: 0;
     color: #FFF;
 font-family: Hind;
-font-size: 18px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 
 .skills-column h3 {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .code-heading {
     background-color: #f05385; 
     padding: 1px 5px;
     border-radius: 1px;
+    
 }
 
 .toolbox-heading {
@@ -68,3 +71,74 @@ line-height: normal;
     padding: 1px 5px;
     border-radius: 1px;
 }
+
+/* Small devices (phones, 600px and under) */
+@media (max-width: 600px) {
+
+    
+     
+}
+
+/* Medium devices (tablets, 601px - 900px) */
+  @media (min-width: 601px) and (max-width: 900px){  /* adjust this breakpoint as needed */
+   
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+  }
+  
+  
+  /* Large devices (desktops, 901px - 1200px) */
+  @media (min-width: 901px) and (max-width: 1200px){  /* typical desktop breakpoint */
+  
+    .skills-wrapper {
+        padding: 180px;
+    }
+
+    .skills-wrapper h1 {
+        font-size: 50px;
+        padding-bottom: 100px;
+    }
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       gap: 20px;
+    }
+
+    .skills-column p {
+        font-size: 18px;
+    }
+
+
+
+
+}
+
+
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {  /* breakpoint for large screens */
+    
+    .skills-wrapper {
+        padding: 180px;
+    }
+
+    .skills-wrapper h1 {
+        font-size: 50px;
+        padding-bottom: 100px;
+    }
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .skills-column p {
+        font-size: 18px;
+    }
+
+
+}
+    
