@@ -1,7 +1,6 @@
 import './Buttons.css';
-import GithubSVG from '../../assets/github.svg';
-import LiveDemoSVG from  '../../assets/web.svg';
-import ReadMoreSVG from '../../assets/note-rounded-square-interface-symbol-svgrepo-com.svg'
+
+
 
 export const Buttons = ({ type, text, icon, onClick, href }) => {
   return (
