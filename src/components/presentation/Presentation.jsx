@@ -1,4 +1,4 @@
-import Arrow from '../../assets/Arrow.png';
+import Arrow from '../../assets/Arrow.svg';
 import './Presentation.css';
 import { useState, useEffect } from 'react';
 
@@ -30,9 +30,7 @@ export const Presentation = () => {
               <h3>Hi, I'm Sandra Gustafsson</h3>
               <h1 className='presentation-bigtitle'>Frontend Developer</h1>
             </div>
-            <p className='presentation-text'>Sandra, a Frontend Developer, excels in problem-solving and streamlining tasks...iuwebfiwbf
-            piwla
-            bgpwia öbgåowöab goåiwöbgvoiwh gboiwö gbigbo öwbugh novyv ghnwgh nslyvto qtilyt esytt oymtm 8yt</p>
+            <p className='presentation-text'>My strengths lie in problem-solving and creativity. I'm passionate about challenging myself, continuously learning, and adapting to new scenarios. Known for my reliability, I consistently meet commitments with dedication. Driven by optimization, I always seek to make processes more effective. I'm eager to contribute and grow with our collaborations.</p>
             <div className='arrow-wrapper'>
               <img src={Arrow} alt='Arrow pointing down'></img>
             </div>
@@ -46,9 +44,7 @@ export const Presentation = () => {
               </div>
             <div className='presentation-content'>
             <img src="images/profilimg.jpeg" alt="image of Sandra" className='profile-image' />
-              <p className='presentation-text'>Sandra, a Frontend Developer, excels in problem-solving and streamlining tasks...iuwebfiwbf
-            piwla
-            bgpwia öbgåowöab goåiwöbgvoiwh gboiwö gbigbo öwbugh novyv ghnwgh nslyvto qtilyt esytt oymtm 8yt</p>
+              <p className='presentation-text'>My strengths lie in problem-solving and creativity. I'm passionate about challenging myself, continuously learning, and adapting to new scenarios. Known for my reliability, I consistently meet commitments with dedication. Driven by optimization, I always seek to make processes more effective. I'm eager to contribute and grow with our collaborations.</p>
             </div>
             <div className='arrow-wrapper'>
               <img src={Arrow} alt='Arrow pointing down'></img>

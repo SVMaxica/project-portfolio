@@ -33,25 +33,25 @@
 }
 
 
-.button.live-demo:hover {
+.Button.live-demo:hover {
     background-color: blue;
     color: white;
 }
 
-.button.live-demo:hover img {
+.Button.live-demo:hover img {
     filter: invert(1);
 }
 
 
-.button.view-code:hover {
+.Button.view-code:hover {
     background-color: rgb(216, 19, 94);
     color: white;
 }
 
-.button.view-code:hover img {
+.Button.view-code:hover img {
     filter: invert(1);
 }
 
-.button.read-more:hover {
+.Button.read-more:hover {
     background-color: rgb(250, 197, 37);
 }

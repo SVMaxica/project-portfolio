@@ -45,9 +45,6 @@
 }
 
 .presentation-text {
-
-  padding-left: 30px;
-  padding-right: 30px;
   color: #000;
   font-family: Hind;
   font-style: normal;
@@ -56,10 +53,23 @@
   word-wrap: break-word;
   width:300px;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 .presentation-text p {
   text-align: center;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-30px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
 }
 
 img[src*='Arrow'] {
@@ -69,7 +79,10 @@ img[src*='Arrow'] {
   width: auto; 
   margin-top: 80px;
   margin-bottom: 100px;
+  animation: float 2s ease-in-out infinite;
 }
+
+
 
 /* Medium devices (tablets, 601px - 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
@@ -93,8 +106,9 @@ img[src*='Arrow'] {
   }
 
   .presentation-text {
+    margin-left: 50px;
     font-size: 16px;
-    width: 270px;
+    width: 330px;
   }
 
   .presentation-titles-container h3 {
@@ -108,10 +122,72 @@ img[src*='Arrow'] {
 
 /* Large devices (desktops, 901px - 1200px) */
 @media (min-width: 901px) and (max-width: 1200px) {
+  .presentation-wrapper {
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .presentation {
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation-content {
+    flex-direction: row;
+    align-items: center;
+  }
   
+  .profile-image {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .presentation-text {
+    margin-left: 50px;
+    font-size: 16px;
+    width: 330px;
+  }
+
+  .presentation-titles-container h3 {
+    text-align: left;
+  }
+  .presentation-titles-container h1 {
+    font-size: 50px;
+    text-align: left;
+  }
 }
 
 /* Extra large devices (large desktops, 1201px and up) */
 @media (min-width: 1201px) {
+  .presentation-wrapper {
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .presentation {
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation-content {
+    flex-direction: row;
+    align-items: center;
+  }
   
+  .profile-image {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .presentation-text {
+    margin-left: 50px;
+    font-size: 16px;
+    width: 330px;
+  }
+
+  .presentation-titles-container h3 {
+    text-align: left;
+  }
+  .presentation-titles-container h1 {
+    font-size: 50px;
+    text-align: left;
+  }
 }
