@@ -157,12 +157,16 @@ border-left: 10px solid #0B24F5;
     .project-image {
         width: 200px;
         height: 240px;
+        margin-left: 0;
     }
 
     .project-buttons {
         flex-direction: row;
     }
 
+    .projects-wrapper h1 {
+        font-size: 50px;
+    }
 }
       
       
@@ -175,9 +179,9 @@ border-left: 10px solid #0B24F5;
             align-items: center;
         }
 
-.projects-wrapper h1 {
-    font-size: 50px;
-}
+        .projects-wrapper h1 {
+         font-size: 80px;
+        }
 
         .project-details {
             width: 100%;
@@ -206,6 +210,7 @@ border-left: 10px solid #0B24F5;
         .project-image {
             width: 260px;
             height: 250px;
+            margin-left: 0;
             border-left: 20px solid#0B24F5;
             border-bottom: 20px solid#0B24F5;
            
@@ -238,7 +243,7 @@ border-left: 10px solid #0B24F5;
         }
 
         .projects-wrapper h1 {
-            font-size: 50px;
+            font-size: 80px;
         }
         .project-details h3 {
             font-size: 35px;

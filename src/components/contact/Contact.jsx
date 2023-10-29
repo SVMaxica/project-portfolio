@@ -18,13 +18,13 @@ export const Contact = () => {
             <p>svmaxica@gmail.com</p>
             </div>
             <div className="social-media-icons">
-            <a href="https://linkedin.com/in/your_username" target="_blank" rel="noreferrer">
+            <a href="www.linkedin.com/in/sandra-gustafsson-3665061a5" target="_blank" rel="noreferrer">
                     <img src={linkedInIcon} alt="LinkedIn link" />
                 </a>
-                <a href="https://stackoverflow.com/#" target="_blank" rel="noreferrer">
+                <a href="https://stackexchange.com/users/28897605/sandra-gustafsson" target="_blank" rel="noreferrer">
                     <img src={stackOwerflowIcon} alt="Stackowerflow link" />
                 </a>
-                <a href="https://instagram.com/your_username" target="_blank" rel="noreferrer">
+                <a href="https://github.com/SVMaxica" target="_blank" rel="noreferrer">
                     <img src={githubIcon} alt="Github link" />
                 </a>
                 </div>
