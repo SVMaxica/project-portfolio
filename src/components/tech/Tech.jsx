@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import './Tech.css'
-import React from 'react'
 
 export const Tech = () => {
   return (
