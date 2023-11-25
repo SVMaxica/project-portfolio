@@ -4,7 +4,7 @@ import './Skills.css';
 export const Skills = () => {
   return (
     <div className="skills-wrapper">
-            <h1>My Skills</h1>
+            <h1>Skills</h1>
             <div className="skills-grid">
             <div className="skills-column">
                     <h3 className='code-heading'>Code</h3>
