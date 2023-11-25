@@ -26,10 +26,9 @@ color: #0B24F5;
     margin-top: 0;
 }
 .contact-text p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
     margin: 0;
-    font-size: 18px;
-}
-.social-media-icons {
     display: flex;
     gap: 30px;  
     padding-top: 20px;
