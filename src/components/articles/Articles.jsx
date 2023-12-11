@@ -6,10 +6,10 @@ import waveLine from '../../assets/dividerLarge.png';
 const exampleArticles = [
   {
       imageUrl: "images/img.png",
-      title: "The Joy of Programming",
-      preview: "Explore the world of programming and understand the joy it brings to many...",
-      link: "https://www.google.se",
-      publishDate: "October 1, 2023"
+      title: "Emotions during a bootcamp!",
+      preview: "Attending a web developer bootcamp is an emotional rollercoaster. It's a constant....",
+      link: "https://www.linkedin.com/in/sandra-gustafsson-3665061a5/recent-activity/all/",
+      publishDate: "November 24, 2023"
   },
   {
       imageUrl: "images/img-2.png",

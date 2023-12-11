@@ -1,17 +1,98 @@
 {
     "projects": [
-        {
-            "name": "Chatbot",
-            "description": "A user-friendly chatbot for a restaurant, allowing customers to make reservations and order food.",
-            "image": "/images/food.jpg",
-            "tags": [
-                "HTML5",
-                "CSS3",
-                "JavaScript"
-            ],
-            "netlify": "https://bobtherestaurantbot.netlify.app/",
-            "github": "https://github.com/SVMaxica/project-chatbot"
-        },
+      {
+        "name": "Project Authentication",
+        "description": "This is a fullstack project were we suppose to practice project authentication.",
+        "image": "/images/qrcode.jpeg",
+        "tags": [
+          "Fullstack",
+          "APIs",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React"
+        ],
+        "netlify": "https://project-auth-by-sandra.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-auth"
+      },    
+      {
+        "name": "Happy thoughts",
+        "description": "A twitterlike platform for users to share positive thoughts and messages.",
+        "image": "/images/thoughts.jpg",
+        "tags": [
+          "Fullstack",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "APIs"
+        ],
+        "netlify": "https://frolicking-chaja-ff29d1.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-happy-thoughts-vite",
+        "backend": "https://github.com/SVMaxica/project-happy-thoughts-api"
+      }, 
+      {
+        "name": "QR-code generator",
+        "description": "An app were you can generate qrcodes from an url!",
+        "image": "/images/qrcode.jpeg",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "APIs"
+        ],
+        "netlify": "",
+        "github": "",
+        "backend": ""
+      }, 
+      {
+        "name": "Design handoff project",
+        "description": "This was a collaborationsproject with the ux designers, each student got a design from a ux-designer to follow",
+        "image": "/images/gameboy.jpg",
+        "tags": [
+          "Fullstack",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "APIs"
+        ],
+        "netlify": "",
+        "github": "",
+        "backend": ""
+      }, 
+      {
+        "name": "Lemons Trivia game!",
+        "description": "This week we were practicing statemanegement and buildt a game using zustand. Try it out!",
+        "image": "/images/gameboy.jpg",
+        "tags": [
+          "Zustand",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "APIs"
+        ],
+        "netlify": "https://lemons-quiz-project.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-state-management-quiz-vite",
+        "backend": ""
+      }, 
+      {
+        "name": "Movies webbsite",
+        "description": "A movies website were we use an API to showcase movies and their details. Features fetching popular movies, rendering movie specifics, and managing image URLs.",
+        "image": "/images/gameboy.jpg",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "APIs"
+        ],
+        "netlify": "https://sandraandfridasmoviesite.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-movies-vite",
+        "backend": ""
+      }, 
         {
           "name": "Weather app",
           "description": "An intuitive weather application with real-time weather updates based on city, including forecasts.",
@@ -25,17 +106,18 @@
           "netlify": "https://sandraandmannesweatherapp.netlify.app/",
           "github": "https://github.com/SVMaxica/project-weather-app"
         },
-        {
-            "name": "Guess who game",
-            "description": "An engaging game where players must guess the correct character based on hints.",
-            "image": "/images/gameboy.jpg",
+          {
+            "name": "Travel survey",
+            "description": "A survey form designed for travel enthusiasts to give travel suggestions.",
+            "image": "/images/travel.jpg",
             "tags": [
               "HTML5",
               "CSS3",
-              "JavaScript"
+              "JavaScript",
+              "React"
             ],
-            "netlify": "http://sandrasmusicreleaseproject.netlify.app/",
-            "github": "https://github.com/SVMaxica/project-music-releases-vite"
+            "netlify": "https://brilliant-dusk-90384c.netlify.app/",
+            "github": "https://github.com/klaudiaW0410/project-survey-vite/tree/main"
           },
           {
             "name": "Spotify music releases",
@@ -52,31 +134,28 @@
             "github": "https://github.com/SVMaxica/project-weather-app"
           },
           {
-            "name": "Travel survey",
-            "description": "A survey form designed for travel enthusiasts to give travel suggestions.",
-            "image": "/images/travel.jpg",
+            "name": "Guess who game",
+            "description": "An engaging game where players must guess the correct character based on hints.",
+            "image": "/images/gameboy.jpg",
             "tags": [
               "HTML5",
               "CSS3",
-              "JavaScript",
-              "React"
+              "JavaScript"
             ],
-            "netlify": "https://brilliant-dusk-90384c.netlify.app/",
-            "github": "https://github.com/klaudiaW0410/project-survey-vite/tree/main"
-          },    
+            "netlify": "http://sandrasmusicreleaseproject.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-music-releases-vite"
+          },
           {
-            "name": "Happy thoughts",
-            "description": "A twitterlike platform for users to share positive thoughts and messages.",
-            "image": "/images/thoughts.jpg",
+            "name": "Chatbot",
+            "description": "A user-friendly chatbot for a restaurant, allowing customers to make reservations and order food.",
+            "image": "/images/food.jpg",
             "tags": [
-              "HTML5",
-              "CSS3",
-              "JavaScript",
-              "React",
-              "APIs"
+                "HTML5",
+                "CSS3",
+                "JavaScript"
             ],
-            "netlify": "https://frolicking-chaja-ff29d1.netlify.app/",
-            "github": "https://github.com/SVMaxica/project-happy-thoughts-vite"
-          }     
+            "netlify": "https://bobtherestaurantbot.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-chatbot"
+        }       
     ]
   }
