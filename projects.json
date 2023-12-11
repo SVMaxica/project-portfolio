@@ -3,7 +3,7 @@
       {
         "name": "Project Authentication",
         "description": "This is a fullstack project were we suppose to practice project authentication.",
-        "image": "/images/qrcode.jpeg",
+        "image": "/images/project-auth (kopia).png",
         "tags": [
           "Fullstack",
           "APIs",
@@ -18,7 +18,7 @@
       {
         "name": "Happy thoughts",
         "description": "A twitterlike platform for users to share positive thoughts and messages.",
-        "image": "/images/thoughts.jpg",
+        "image": "/images/happy-thoughts.png",
         "tags": [
           "Fullstack",
           "HTML5",
@@ -49,7 +49,7 @@
       {
         "name": "Design handoff project",
         "description": "This was a collaborationsproject with the ux designers, each student got a design from a ux-designer to follow",
-        "image": "/images/gameboy.jpg",
+        "image": "/images/design-handoff.png",
         "tags": [
           "Fullstack",
           "HTML5",
@@ -65,7 +65,7 @@
       {
         "name": "Lemons Trivia game!",
         "description": "This week we were practicing statemanegement and buildt a game using zustand. Try it out!",
-        "image": "/images/gameboy.jpg",
+        "image": "/images/trivia-game.png",
         "tags": [
           "Zustand",
           "HTML5",
@@ -81,7 +81,7 @@
       {
         "name": "Movies webbsite",
         "description": "A movies website were we use an API to showcase movies and their details. Features fetching popular movies, rendering movie specifics, and managing image URLs.",
-        "image": "/images/gameboy.jpg",
+        "image": "/images/movies-site.png",
         "tags": [
           "HTML5",
           "CSS3",
@@ -96,7 +96,7 @@
         {
           "name": "Weather app",
           "description": "An intuitive weather application with real-time weather updates based on city, including forecasts.",
-          "image": "/images/weather.jpg",
+          "image": "/images/weather-app.png",
           "tags": [
             "HTML5",
             "CSS3",
@@ -109,7 +109,7 @@
           {
             "name": "Travel survey",
             "description": "A survey form designed for travel enthusiasts to give travel suggestions.",
-            "image": "/images/travel.jpg",
+            "image": "/images/travel-survey (kopia).png",
             "tags": [
               "HTML5",
               "CSS3",
@@ -122,7 +122,7 @@
           {
             "name": "Spotify music releases",
             "description": "A platform showcasing the latest music releases on Spotify. Spotify API to fetch real-time data.",
-            "image": "/images/music.jpg",
+            "image": "/images/Music-site.png",
             "tags": [
               "HTML5",
               "CSS3",
@@ -136,7 +136,7 @@
           {
             "name": "Guess who game",
             "description": "An engaging game where players must guess the correct character based on hints.",
-            "image": "/images/gameboy.jpg",
+            "image": "/images/guess-who.png",
             "tags": [
               "HTML5",
               "CSS3",
@@ -148,7 +148,7 @@
           {
             "name": "Chatbot",
             "description": "A user-friendly chatbot for a restaurant, allowing customers to make reservations and order food.",
-            "image": "/images/food.jpg",
+            "image": "/images/chat-bot.png",
             "tags": [
                 "HTML5",
                 "CSS3",
