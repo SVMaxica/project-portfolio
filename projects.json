@@ -42,8 +42,8 @@
           "React",
           "APIs"
         ],
-        "netlify": "",
-        "github": "",
+        "netlify": " https://qr-code-generator-by-sandra.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-custom-hooks-qr-code-generator-vite",
         "backend": ""
       }, 
       {
@@ -58,8 +58,8 @@
           "React",
           "APIs"
         ],
-        "netlify": "",
-        "github": "",
+        "netlify": "https://design-handoff-project-by-sandra.netlify.app/",
+        "github": "https://github.com/SVMaxica/project-design-handoff-vite",
         "backend": ""
       }, 
       {
@@ -130,8 +130,8 @@
               "APIs",
               "React"
             ],
-            "netlify": "https://sandraandmannesweatherapp.netlify.app/",
-            "github": "https://github.com/SVMaxica/project-weather-app"
+            "netlify": "https://sandrasmusicreleaseproject.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-music-releases-vite"
           },
           {
             "name": "Guess who game",
@@ -142,8 +142,8 @@
               "CSS3",
               "JavaScript"
             ],
-            "netlify": "http://sandrasmusicreleaseproject.netlify.app/",
-            "github": "https://github.com/SVMaxica/project-music-releases-vite"
+            "netlify": "https://sandrasguesswho.netlify.app/",
+            "github": "https://github.com/SVMaxica/project-guess-who"
           },
           {
             "name": "Chatbot",
