@@ -106,9 +106,9 @@ img[src*='Arrow'] {
   }
 
   .presentation-text {
-    margin-left: 50px;
+    margin-left: 10px;
     font-size: 16px;
-    width: 420px;
+    width: 380px;
   }
 
   .presentation-titles-container h3 {
@@ -116,7 +116,7 @@ img[src*='Arrow'] {
     padding-left: 5px;
   }
   .presentation-titles-container h1 {
-    font-size: 60px;
+    font-size: 53px;
     text-align: left;
   }
 }
@@ -151,7 +151,7 @@ img[src*='Arrow'] {
   .presentation-titles-container h3 {
     text-align: left;
     padding-left: 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .presentation-titles-container h1 {
     font-size: 80px;
