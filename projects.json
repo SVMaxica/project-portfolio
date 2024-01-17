@@ -1,6 +1,21 @@
 {
     "projects": [
       {
+        "name": "Whisper wall",
+        "description": "Whisper Wall is an innovative platform where people can anonymously share stories, rumors, and hearsays tied to specific locations or towns.",
+        "image": "/images/Finalproject-mockup.png",
+        "tags": [
+          "Fullstack",
+          "APIs",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React"
+        ],
+        "netlify": "https://whisper-wall.netlify.app/",
+        "github": "https://github.com/SVMaxica/final-project"
+      },    
+      {
         "name": "Project Authentication",
         "description": "This is a fullstack project were we suppose to practice project authentication.",
         "image": "/images/project-auth (kopia).png",
