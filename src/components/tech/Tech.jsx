@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
-import "./Tech.css";
+import { forwardRef } from 'react';
+import './Tech.css';
 
-export const Tech = () => {
+export const Tech = forwardRef((props, ref) => {
   return (
-    <div className="tech-wrapper">
+    <div ref={ref} className="tech-wrapper">
       <div className="tech-content">
         <h1 className="tech-title">Tech</h1>
         <p className="tech-text">
@@ -15,4 +16,4 @@ export const Tech = () => {
       </div>
     </div>
   );
-};
+});

@@ -1,0 +1,38 @@
+@keyframes float {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-30px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+img[src*='Arrow'] { 
+  margin: 0 auto;
+  height: auto;
+  width: auto; 
+  animation: float 2s ease-in-out infinite;
+}
+
+.arrow-wrapper {
+  transition: all 2s ease-in-out;  /* Adjust time and easing as needed */
+}
+
+/* Initial position */
+/* div.arrow-wrapper .arrow-initial {
+  position: fixed;
+  bottom: 55% ;
+  right: 45%;
+  z-index: 1000;
+} */
+
+/* Fixed position */
+/* div.arrow-wrapper .arrow-fixed {
+  position: fixed;
+  bottom: 100px;
+  right: 45%;
+  z-index: 1000;
+} */

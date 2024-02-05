@@ -1,41 +1,42 @@
-import "./Articles.css";
-import { Buttons } from "../Buttons/Buttons";
-import ReadMoreSVG from "../../assets/note-rounded-square-interface-symbol-svgrepo-com.svg";
-import waveLine from "../../assets/dividerLarge.png";
+import './Articles.css';
+import { Buttons } from '../Buttons/Buttons';
+import ReadMoreSVG from '../../assets/note-rounded-square-interface-symbol-svgrepo-com.svg';
+import waveLine from '../../assets/dividerLarge.png';
+import { forwardRef } from 'react';
 
 const exampleArticles = [
   {
-    imageUrl: "images/img.png",
-    title: "Emotions during a bootcamp!",
+    imageUrl: 'images/img.png',
+    title: 'Emotions during a bootcamp!',
     preview:
       "Attending a web developer bootcamp is an emotional rollercoaster. It's a constant....",
-    link: "https://www.linkedin.com/posts/sandra-gustafsson-3665061a5_frontend-developer-bootcamp-activity-7130534507249606656-mJbW/?utm_source=share&utm_medium=member_desktop",
-    publishDate: "November 24, 2023",
+    link: 'https://www.linkedin.com/posts/sandra-gustafsson-3665061a5_frontend-developer-bootcamp-activity-7130534507249606656-mJbW/?utm_source=share&utm_medium=member_desktop',
+    publishDate: 'November 24, 2023',
   },
   {
-    imageUrl: "images/img-2.png",
-    title: "Exited to share our final project",
+    imageUrl: 'images/img-2.png',
+    title: 'Exited to share our final project',
     preview:
-      "After weeks of hard work and collaboration, our team  consisting of myself, Frida, Caro, and Emmy is thrilled to present our.... ",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7152998899408871425/",
-    publishDate: "January 16, 2024",
+      'After weeks of hard work and collaboration, our team  consisting of myself, Frida, Caro, and Emmy is thrilled to present our.... ',
+    link: 'https://www.linkedin.com/feed/update/urn:li:activity:7152998899408871425/',
+    publishDate: 'January 16, 2024',
   },
   {
-    imageUrl: "images/img-3.png",
-    title: "The Future of Web",
+    imageUrl: 'images/img-3.png',
+    title: 'The Future of Web',
     preview:
-      "A look into the future trends and technologies that are shaping the web...",
-    link: "https://www.google.se",
-    publishDate: "October 1, 2023",
+      'A look into the future trends and technologies that are shaping the web...',
+    link: 'https://www.google.se',
+    publishDate: 'October 1, 2023',
   },
   {
-    imageUrl: "images/img-4.png",
-    title: "CSS Secrets and Tips",
+    imageUrl: 'images/img-4.png',
+    title: 'CSS Secrets and Tips',
     preview:
-      "Unravel the secrets of CSS to build beautiful and responsive designs...",
+      'Unravel the secrets of CSS to build beautiful and responsive designs...',
 
-    link: "https://www.google.se",
-    publishDate: "October 1, 2023",
+    link: 'https://www.google.se',
+    publishDate: 'October 1, 2023',
   },
 ];
 
@@ -56,10 +57,10 @@ const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {
   );
 };
 
-export const Articles = () => {
+export const Articles = forwardRef((props, ref) => {
   return (
     <>
-      <div className="divider-wrapper">
+      <div ref={ref} className="divider-wrapper">
         <img src={waveLine} alt="dividing line between slides"></img>
       </div>
       <div className="articles-wrapper">
@@ -79,4 +80,4 @@ export const Articles = () => {
       </div>
     </>
   );
-};
+});
