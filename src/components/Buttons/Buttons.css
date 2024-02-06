@@ -36,7 +36,7 @@
 }
 
 .Button.live-demo:hover {
-    background-color: blue;
+    background-color: #174A4C;
     color: white;
 }
 
@@ -55,5 +55,5 @@
 }
 
 .Button.read-more:hover {
-    background-color: rgb(250, 197, 37);
+    background-color: #FF4575;
 }

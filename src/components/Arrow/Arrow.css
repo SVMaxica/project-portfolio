@@ -18,21 +18,5 @@ img[src*='Arrow'] {
 }
 
 .arrow-wrapper {
-  transition: all 2s ease-in-out;  /* Adjust time and easing as needed */
+  transition: all 2s ease-in-out;  
 }
-
-/* Initial position */
-/* div.arrow-wrapper .arrow-initial {
-  position: fixed;
-  bottom: 55% ;
-  right: 45%;
-  z-index: 1000;
-} */
-
-/* Fixed position */
-/* div.arrow-wrapper .arrow-fixed {
-  position: fixed;
-  bottom: 100px;
-  right: 45%;
-  z-index: 1000;
-} */

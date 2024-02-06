@@ -32,7 +32,7 @@ export const Presentation = forwardRef(
               />
               <div className="presentation-titles-container">
                 <h3>Hi, I'm Sandra Gustafsson</h3>
-                <h1 className="presentation-bigtitle">Frontend Developer</h1>
+                <h1 className="scanning-h1">Frontend Developer</h1>
               </div>
               <p className="presentation-text">
                 My strengths lie in problem-solving and creativity. I'm
@@ -56,7 +56,7 @@ export const Presentation = forwardRef(
             <>
               <div className="presentation-titles-container">
                 <h3>Hi, I'm Sandra Gustafsson</h3>
-                <h1>Frontend Developer</h1>
+                <h1 className="scanning-h1">Frontend Developer</h1>
               </div>
               <div className="presentation-content">
                 <img

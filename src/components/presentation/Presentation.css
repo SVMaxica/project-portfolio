@@ -23,11 +23,31 @@
  
 }
 
-.presentation-titles-container h1 {
+/* .presentation-titles-container h1 {
   margin: 0;
-  color: blue;
+  color: #174A4C;
   text-align: center;
   font-size: 29px;
+} */
+
+.presentation-titles-container .scanning-h1 {
+  font-size: 29px; 
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 900;
+  color: transparent;
+  background-image: linear-gradient(to right, #174A4C, #828d6f, #174A4C);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: scan 5s linear infinite;
+}
+
+@keyframes scan {
+  0% { background-position: 100% 50%; }
+  50% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .presentation-titles-container h3 {
@@ -118,7 +138,7 @@ img[src*='Arrow'] {
     text-align: left;
     padding-left: 5px;
   }
-  .presentation-titles-container h1 {
+  .presentation-titles-container .scanning-h1 {
     font-size: 53px;
     text-align: left;
   }
@@ -158,7 +178,7 @@ img[src*='Arrow'] {
     padding-left: 5px;
     font-size: 20px;
   }
-  .presentation-titles-container h1 {
+  .presentation-titles-container .scanning-h1 {
     font-size: 80px;
     text-align: left;
   }
@@ -205,7 +225,7 @@ img[src*='Arrow'] {
     font-size: 25px;
     padding-left: 5px;
   }
-  .presentation-titles-container h1 {
+  .presentation-titles-container .scanning-h1{
     font-size: 80px;
     text-align: left;
   }

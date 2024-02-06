@@ -1,12 +1,12 @@
 import './Articles.css';
 import { Buttons } from '../Buttons/Buttons';
 import ReadMoreSVG from '../../assets/note-rounded-square-interface-symbol-svgrepo-com.svg';
-import waveLine from '../../assets/dividerLarge.png';
+import waveLine from '../../assets/dividerDesktop.svg';
 import { forwardRef } from 'react';
 
 const exampleArticles = [
   {
-    imageUrl: 'images/img.png',
+    imageUrl: 'images/roller-coaster.jpg',
     title: 'Emotions during a bootcamp!',
     preview:
       "Attending a web developer bootcamp is an emotional rollercoaster. It's a constant....",
@@ -14,7 +14,7 @@ const exampleArticles = [
     publishDate: 'November 24, 2023',
   },
   {
-    imageUrl: 'images/img-2.png',
+    imageUrl: 'images/code.jpg',
     title: 'Exited to share our final project',
     preview:
       'After weeks of hard work and collaboration, our team  consisting of myself, Frida, Caro, and Emmy is thrilled to present our.... ',
@@ -22,7 +22,7 @@ const exampleArticles = [
     publishDate: 'January 16, 2024',
   },
   {
-    imageUrl: 'images/img-3.png',
+    imageUrl: 'images/javascript.jpg',
     title: 'The Future of Web',
     preview:
       'A look into the future trends and technologies that are shaping the web...',
@@ -30,7 +30,7 @@ const exampleArticles = [
     publishDate: 'October 1, 2023',
   },
   {
-    imageUrl: 'images/img-4.png',
+    imageUrl: 'images/python.jpg',
     title: 'CSS Secrets and Tips',
     preview:
       'Unravel the secrets of CSS to build beautiful and responsive designs...',

@@ -32,7 +32,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const initialStyle = {
     position: 'fixed',
     bottom: '5%',
-    right: '45%',
+    right: '50%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
     ...responsiveStyle,
@@ -42,7 +42,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const fixedStyle = {
     position: 'fixed',
     bottom: '5%',
-    right: '45%',
+    right: '50%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
   };
@@ -50,7 +50,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const turnedStyle = {
     position: 'fixed',
     bottom: '90%',
-    right: '45%',
+    right: '50%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
   };
@@ -64,7 +64,6 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   }
 
   // // Determine which style to apply
-  // const appliedStyle = arrowClicked ? fixedStyle : initialStyle;
 
   return (
     <div className="arrow-wrapper" onClick={onArrowClick} style={appliedStyle}>

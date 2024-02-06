@@ -16,7 +16,7 @@
 }
 
 .projects-wrapper h1 {
-    color: #0B24F5;
+    color: #17304C;
     font-size: 45px;
     width: 100%;
     text-align: center;
@@ -41,13 +41,33 @@ gap: 100px;
     margin-bottom: 20px; 
 }
 
-.project-image {
+/* .project-image {
     width: 100%;
     max-height: 250px;
     object-fit: cover;
     flex-shrink: 0;
-    border-bottom: 10px solid #0B24F5;
-border-left: 10px solid #0B24F5;
+    border-bottom: 10px solid #17304C;
+border-left: 10px solid #17304C;
+} */
+
+.project-image {
+    position: relative;
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    /* Create the gradient effect */
+    background: linear-gradient(45deg, #174A4C, #DAF7A6, #174A4C);
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block; 
 }
 
 .project-details {
@@ -215,9 +235,8 @@ border-left: 10px solid #0B24F5;
             width: 260px;
             height: 250px;
             margin-left: 0;
-            border-left: 20px solid#0B24F5;
-            border-bottom: 20px solid#0B24F5;
-           
+            padding-left: 20px;
+            padding-bottom: 20px;
         }
     
         .project-buttons {
@@ -267,9 +286,8 @@ border-left: 10px solid #0B24F5;
         .project-image {
             width: 260px;
             height: 250px;
-            border-left: 20px solid#0B24F5;
-            border-bottom: 20px solid#0B24F5;
-           
+            padding-left: 20px;
+            padding-bottom: 20px;
         }
     
         .project-buttons {
