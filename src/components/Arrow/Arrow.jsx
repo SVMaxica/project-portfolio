@@ -9,22 +9,25 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   if (screenWidth >= 1201) {
     // Styles for screens 1201px and larger
     responsiveStyle = {
-      bottom: '63%',
+      bottom: '50%',
+      right: '50%',
     };
   } else if (screenWidth >= 901) {
     // Styles for screens 901px to 1200px
     responsiveStyle = {
       bottom: '45%',
+      right: '48%',
     };
   } else if (screenWidth >= 601) {
     // Styles for screens 601px to 901px
     responsiveStyle = {
-      bottom: '55%',
+      bottom: '43%',
+      right: '47%',
     };
   } else {
     // Styles for screens 375px to 600px
     responsiveStyle = {
-      bottom: '5%',
+      bottom: '2%',
     };
   }
 
@@ -32,7 +35,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const initialStyle = {
     position: 'fixed',
     bottom: '5%',
-    right: '50%',
+    right: '42%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
     ...responsiveStyle,
@@ -42,7 +45,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const fixedStyle = {
     position: 'fixed',
     bottom: '5%',
-    right: '50%',
+    right: '45%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
   };
@@ -50,7 +53,7 @@ export const Arrow = ({ isAtBottom, onArrowClick, arrowClicked }) => {
   const turnedStyle = {
     position: 'fixed',
     bottom: '90%',
-    right: '50%',
+    right: '45%',
     zIndex: 1000,
     transform: isAtBottom ? 'rotate(180deg)' : 'none',
   };

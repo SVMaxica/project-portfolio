@@ -62,7 +62,7 @@
   height: 164px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -196,13 +196,13 @@ img[src*='Arrow'] {
 @media (min-width: 1201px) {
   .presentation-wrapper {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 120px;
   }
 
   .presentation {
     justify-content: center;
     align-items: center;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
   }
   .presentation-content {
     flex-direction: row;
