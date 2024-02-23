@@ -21,23 +21,23 @@ const exampleArticles = [
     link: 'https://www.linkedin.com/feed/update/urn:li:activity:7152998899408871425/',
     publishDate: 'January 16, 2024',
   },
-  {
-    imageUrl: 'images/javascript.jpg',
-    title: 'The Future of Web',
-    preview:
-      'A look into the future trends and technologies that are shaping the web...',
-    link: 'https://www.google.se',
-    publishDate: 'October 1, 2023',
-  },
-  {
-    imageUrl: 'images/python.jpg',
-    title: 'CSS Secrets and Tips',
-    preview:
-      'Unravel the secrets of CSS to build beautiful and responsive designs...',
+  // {
+  //   imageUrl: 'images/javascript.jpg',
+  //   title: 'The Future of Web',
+  //   preview:
+  //     'A look into the future trends and technologies that are shaping the web...',
+  //   link: 'https://www.google.se',
+  //   publishDate: 'October 1, 2023',
+  // },
+  // {
+  //   imageUrl: 'images/python.jpg',
+  //   title: 'CSS Secrets and Tips',
+  //   preview:
+  //     'Unravel the secrets of CSS to build beautiful and responsive designs...',
 
-    link: 'https://www.google.se',
-    publishDate: 'October 1, 2023',
-  },
+  //   link: 'https://www.google.se',
+  //   publishDate: 'October 1, 2023',
+  // },
 ];
 
 const ArticleCard = ({ imageUrl, title, preview, link, publishDate }) => {

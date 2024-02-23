@@ -13,39 +13,55 @@ export const Skills = forwardRef((props, ref) => {
           <p>HTML</p>
           <p>CSS</p>
           <p>React</p>
-          <p>React Hooks</p>
-          <p>Zustand</p>
+          <p>Global state management</p>
+          <p>Dom manipulation</p>
+          <p>Styled components</p>
+          <p>Animations</p>
+          {/* <p>Tailwind css</p> */}
           <p>Node.js</p>
-          <p>Web accessibility</p>
+          <p>Express</p>
+          <p>MongoDB</p>
+          <p>Mongoose</p>
+          <p>Restful API</p>
+          <p>Authenticartion</p>
         </div>
         <div className="skills-column">
           <h3 className="toolbox-heading">Toolbox</h3>
           {/* Tools I use */}
+          <p>Command line(terminal)</p>
           <p>VSCode</p>
+          <p>Git</p>
           <p>Github</p>
+          <p>Chrome Dev tools</p>
           <p>Lighthouse</p>
           <p>Postman</p>
           <p>Netlify</p>
+          <p>Render</p>
+          <p>MongoDB Compass</p>
+          <p>MongoDB Atlas</p>
+          <p>Lint</p>
           <p>Figma</p>
           <p>Notion</p>
-          <p>Developer tools</p>
-        </div>
-        <div className="skills-column">
-          <h3 className="upcoming-heading">Upcoming</h3>
-          {/* Upcoming skills */}
-          <p>Python</p>
-          <p>TypeScript</p>
-          <p>Redux</p>
-          <p>WebAssembly</p>
-          <p></p>
         </div>
         <div className="skills-column">
           <h3 className="more-heading">More</h3>
           {/* Additional skills or info */}
-          <p>API:s</p>
-          <p>Vite</p>
-          <p></p>
-          <p></p>
+          <p>Agile methodology</p>
+          <p>Mob programming</p>
+          <p>Pair programming</p>
+          <p>Working fully remote</p>
+          <p>Team work</p>
+          <p>Web accessibility</p>
+          <p>Unit testing</p>
+          <p>Design hand-off</p>
+        </div>
+        <div className="skills-column">
+          <h3 className="upcoming-heading">Upcoming</h3>
+          {/* Upcoming skills */}
+          <p>TypeScript</p>
+          <p>Python</p>
+          <p>Next.js</p>
+          <p>UX/UI design</p>
           <p></p>
         </div>
       </div>

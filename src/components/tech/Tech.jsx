@@ -11,7 +11,7 @@ export const Tech = forwardRef((props, ref) => {
           HTML, CSS, Flexbox, Grid, Javascript, JSX, React, React Hooks, React
           librarys, Web Accessibility, APIs, Zustand, json, Node.js, MongoDB,
           Mongoose, Express.js, Branches, Pair-programming, Github, Figma,
-          Netlify, Developer tools
+          Netlify, Developer tools<br></br> and much more!
         </p>
       </div>
     </div>
