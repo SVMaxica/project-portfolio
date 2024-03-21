@@ -1,5 +1,6 @@
 // import Arrow from '../../assets/Arrow.svg';
 // import Arrow from '../Arrow/Arrow';
+import profile from '../../../public/images/dynamiskprofil.jpg';
 import './Presentation.css';
 import { useState, useEffect, forwardRef } from 'react';
 
@@ -26,7 +27,7 @@ export const Presentation = forwardRef(
             // For screens 600px and under
             <>
               <img
-                src="images/profilimg.jpeg"
+                src="../../../public/images/dynamiskprofil.jpg"
                 alt="image of Sandra"
                 className="profile-image"
               />
@@ -60,7 +61,7 @@ export const Presentation = forwardRef(
               </div>
               <div className="presentation-content">
                 <img
-                  src="images/profilimg.jpeg"
+                  src="../../../public/images/dynamiskprofil.jpg"
                   alt="image of Sandra"
                   className="profile-image"
                 />

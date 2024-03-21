@@ -1,5 +1,5 @@
 import './Contact.css';
-import profileImage from '/images/profilimg.jpeg';
+import profileImage from '/images/dynamiskprofil.jpg';
 import linkedInIcon from '../../assets/linkedin.svg';
 import stackOwerflowIcon from '../../assets/stack.svg';
 import githubIcon from '../../assets/github.svg';
