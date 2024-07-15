@@ -1,6 +1,19 @@
 {
     "projects": [
       {
+        "name": "AIR BNB Apartment manual",
+        "description": "This was the first real project i did after graduation it is a instruction manual for air bnb guests",
+        "image": "/images/apartmentmanual.jpg",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React"
+        ],
+        "netlify": "https://apartmentmanual.netlify.app/",
+        "github": "https://github.com/SVMaxica/apartmentManual"
+      },    
+      {
         "name": "Whisper wall",
         "description": "Whisper Wall is an innovative platform where people can anonymously share stories, rumors, and hearsays tied to specific locations or towns.",
         "image": "/images/Finalproject-mockup.png",

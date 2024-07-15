@@ -10,9 +10,11 @@ export const Skills = forwardRef((props, ref) => {
           <h3 className="code-heading">Code</h3>
           {/* My skills */}
           <p>JavaScript</p>
+          <p>Typescript</p>
           <p>HTML</p>
           <p>CSS</p>
           <p>React</p>
+          <p>Tailwind</p>
           <p>Global state management</p>
           <p>Dom manipulation</p>
           <p>Styled components</p>
@@ -46,6 +48,7 @@ export const Skills = forwardRef((props, ref) => {
         <div className="skills-column">
           <h3 className="more-heading">More</h3>
           {/* Additional skills or info */}
+          <p>UX / UI Design</p>
           <p>Agile methodology</p>
           <p>Mob programming</p>
           <p>Pair programming</p>
@@ -58,10 +61,9 @@ export const Skills = forwardRef((props, ref) => {
         <div className="skills-column">
           <h3 className="upcoming-heading">Upcoming</h3>
           {/* Upcoming skills */}
-          <p>TypeScript</p>
+          <p>React Native</p>
           <p>Python</p>
           <p>Next.js</p>
-          <p>UX/UI design</p>
           <p></p>
         </div>
       </div>

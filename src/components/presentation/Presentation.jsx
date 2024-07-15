@@ -3,6 +3,7 @@
 import profile from '../../../public/images/dynamiskprofil.jpg';
 import './Presentation.css';
 import { useState, useEffect, forwardRef } from 'react';
+import profileImage from '/images/dynamiskprofil.jpg';
 
 export const Presentation = forwardRef(
   ({ onArrowClick, isAtBottom, arrowClicked }, ref) => {
@@ -26,11 +27,12 @@ export const Presentation = forwardRef(
           {windowWidth <= 600 ? (
             // For screens 600px and under
             <>
-              <img
+              {/* <img
                 src="../../../public/images/dynamiskprofil.jpg"
                 alt="image of Sandra"
                 className="profile-image"
-              />
+              /> */}
+              <img src={profileImage} alt="Profile" className="profile-image" />
               <div className="presentation-titles-container">
                 <h3>Hi, I'm Sandra Gustafsson</h3>
                 <h1 className="scanning-h1">Frontend Developer</h1>
@@ -60,9 +62,14 @@ export const Presentation = forwardRef(
                 <h1 className="scanning-h1">Frontend Developer</h1>
               </div>
               <div className="presentation-content">
-                <img
+                {/* <img
                   src="../../../public/images/dynamiskprofil.jpg"
                   alt="image of Sandra"
+                  className="profile-image"
+                /> */}
+                <img
+                  src={profileImage}
+                  alt="Profile"
                   className="profile-image"
                 />
                 <p className="presentation-text">
