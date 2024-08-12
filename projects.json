@@ -1,6 +1,21 @@
 {
     "projects": [
       {
+        "name": "Saluki kennel site",
+        "description": "Designed during UX/UI education: a dynamic React/TypeScript site with real-time Instagram integration, advanced filtering, and automated API management via Netlify.",
+        "image": "/images/salukisite.jpg",
+        "tags": [
+          "HTML5",
+          "Typescript",
+          "Tailwind",
+          "React",
+          "APIs"
+        ],
+        "netlify": "https://ventoveloce.netlify.app/",
+        "github": "https://github.com/SVMaxica/salukikennel",
+        "figma": "https://www.figma.com/design/2525PTGHI2hApuVvp7ZWPy/Kennelsitedark?m=auto&t=ScQ3s39y07ys4zLp-6"
+      },    
+      {
         "name": "AIR BNB Apartment manual",
         "description": "This was the first real project i did after graduation it is a instruction manual for air bnb guests",
         "image": "/images/apartmentmanual.jpg",

@@ -89,11 +89,11 @@ export const App = () => {
       <Skills ref={refSkills} />
       <Contact ref={refContact} />
       <Footer ref={refFooter} />
-      <Arrow
+      {/* <Arrow
         onArrowClick={handleArrowClick}
         isAtBottom={isAtBottom}
         arrowClicked={arrowClicked}
-      />
+      /> */}
     </div>
   );
 };
