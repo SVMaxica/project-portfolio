@@ -8,10 +8,11 @@ export const Tech = forwardRef((props, ref) => {
       <div className="tech-content">
         <h1 className="tech-title">Tech</h1>
         <p className="tech-text">
-          HTML, CSS, Flexbox, Grid, Javascript, Typescript, JSX, React, React
-          Hooks, React librarys, Web Accessibility, UX/UI Design, APIs, Zustand,
-          json, Node.js, MongoDB, Mongoose, Express.js, Branches,
-          Pair-programming, Github, Figma, Postman, AI, Netlify, Developer tools
+          HTML, CSS, Tailwind, Flexbox, Grid, Javascript, Typescript, JSX, Json,
+          React, React Hooks, React librarys, Web Accessibility, UX/UI Design,
+          Rest APIs, Zustand, Node.js, MongoDB, Mongoose, Express.js, Headless
+          CMS, Branches, Pair-programming, Github, Figma, Postman, AI, Netlify,
+          Developer tools
           <br></br> and much more!
         </p>
       </div>
