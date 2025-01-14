@@ -1,6 +1,16 @@
 {
     "projects": [
       {
+        "name": "Focus timer app",
+        "description": "My first React Native project, a focus app that allows you to set a time interval for work. When the timer ends, the phone vibrates to remind you to take a break.",
+        "image": "/images/FocusTime.png",
+        "tags": [
+          "React-native",
+          "Javascript"
+        ],
+        "github": "https://github.com/SVMaxica/focusTime"
+      },    
+      {
         "name": "Saluki kennel site",
         "description": "Designed during UX/UI education: a dynamic React/TypeScript site with real-time Instagram integration, advanced filtering, and automated API management via Netlify.",
         "image": "/images/mockup-kennelsite.png",
@@ -17,7 +27,7 @@
       },    
       {
         "name": "AIR BNB Apartment manual",
-        "description": "This was the first real project i did after graduation it is a instruction manual for air bnb guests",
+        "description": "This website provides information for an Airbnb apartment, including instructions, house rules, and recommendations for attractions and activities to enjoy during your stay.",
         "image": "/images/mockupairbnbmanual.png",
         "tags": [
           "HTML5",

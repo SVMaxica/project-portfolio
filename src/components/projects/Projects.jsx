@@ -23,12 +23,14 @@ export const Projects = forwardRef((props, ref) => {
             ))}
           </div>
           <div className="project-buttons">
-            <Buttons
-              type="live-demo"
-              text="Live Demo"
-              icon={<img src={LiveDemoIcon} alt="Live demo icon" />}
-              href={project.netlify}
-            />
+            {project.netlify && ( // Visa bara om netlify finns
+              <Buttons
+                type="live-demo"
+                text="Live Demo"
+                icon={<img src={LiveDemoIcon} alt="Live demo icon" />}
+                href={project.netlify}
+              />
+            )}
             <Buttons
               type="view-code"
               text="View the Code"
