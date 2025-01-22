@@ -46,13 +46,13 @@ line-height: 16px;
 }
 
 .code-heading {
-    background-color: #f05385; 
+    background-color: #f07087; 
     padding: 1px 5px;
     border-radius: 1px; 
 }
 
 .toolbox-heading {
-    background-color: #55a0c8;
+    background-color: #6495ed;
     padding: 1px 5px;
     border-radius: 1px;
 }
@@ -64,7 +64,7 @@ line-height: 16px;
 }
 
 .more-heading {
-    background-color: #f3d53d; 
+    background-color: #e8f444; 
     padding: 1px 5px;
     border-radius: 1px;
 }

@@ -29,6 +29,32 @@ justify-content: center;
     line-height: normal;
 }
 
+
+/* Bakgrundsfärger */
+.tech-text .highlighted-pink {
+    background-color: #f07087; /* Rosa */
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .tech-text .highlighted-yellow {
+    background-color: #e8f444; /* Gul */
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .tech-text .highlighted-blue {
+    background-color: #6495ed; /* Blå */
+    color: black;
+    border-radius: 4px;
+  }
+  
+  /* Stil för texten */
+  .tech-text span {
+    display: inline-block;
+    padding: 2px 5px;
+  }
+
 /* Small devices (phones, 600px and under) */
 @media (max-width: 600px) {
 
