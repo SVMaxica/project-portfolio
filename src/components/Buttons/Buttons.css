@@ -29,8 +29,8 @@
 }
 
 .button-icon img {
-    width: 20px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
+    width: 20px; 
+    height: 20px; 
     object-fit: contain;
     padding-top: 3px;
 }
@@ -57,3 +57,9 @@
 .Button.read-more:hover {
     background-color: #FF4575;
 }
+
+
+  
+  .Button.video-demo:hover {
+    background-color: #f9e86c; 
+  }

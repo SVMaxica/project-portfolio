@@ -37,6 +37,14 @@ export const Projects = forwardRef((props, ref) => {
               icon={<img src={GithubIcon} alt="GitHub icon" />}
               href={project.github}
             />
+            {project.video && ( // Video-knappen visas bara om en video finns
+              <Buttons
+                type="video-demo"
+                text="Watch Demo"
+                icon="🎥"
+                href={project.video}
+              />
+            )}
           </div>
         </div>
       </div>

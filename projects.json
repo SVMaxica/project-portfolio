@@ -1,6 +1,20 @@
 {
     "projects": [
       {
+        "name": "MealsToGo app",
+        "description": "A mobile-friendly restaurant discovery app where users can browse restaurants, search by location or name, and save favorites. The app provides a smooth and responsive experience, integrating maps and real-time data fetching to enhance usability.",
+        "image": "/images/MealsToGo.png",
+        "video": "/video/MealsToGO2.mp4",
+        "tags": [
+          "React-native",
+          "Javascript",
+          "Google Maps Api",
+          "Expo",
+          "Animations"
+        ],
+        "github": "https://github.com/SVMaxica/focusTime"
+      },    
+      {
         "name": "Focus timer app",
         "description": "My first React Native project, a focus app that allows you to set a time interval for work. When the timer ends, the phone vibrates to remind you to take a break.",
         "image": "/images/FocusTime.png",
