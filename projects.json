@@ -4,7 +4,7 @@
         "name": "MealsToGo app",
         "description": "A mobile-friendly restaurant discovery app where users can browse restaurants, search by location or name, and save favorites. The app provides a smooth and responsive experience, integrating maps and real-time data fetching to enhance usability.",
         "image": "/images/MealsToGo.png",
-        "video": "/video/MealsToGO2.mp4",
+        "video": "https://collection.cloudinary.com/dkhix3l9n/5c8692a290125ea35cfea9b017f813e0",
         "tags": [
           "React-native",
           "Javascript",
