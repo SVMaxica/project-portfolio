@@ -18,19 +18,19 @@ export const Contact = forwardRef((props, ref) => {
         </div>
         <div className="social-media-icons">
           <a
-            href="www.linkedin.com/in/sandra-gustafsson-3665061a5"
+            href="https://www.linkedin.com/in/sandra-gustafsson-3665061a5"
             target="_blank"
             rel="noreferrer"
           >
             <img src={linkedInIcon} alt="LinkedIn link" />
           </a>
-          <a
+          {/* <a
             href="https://stackexchange.com/users/28897605/sandra-gustafsson"
             target="_blank"
             rel="noreferrer"
           >
             <img src={stackOwerflowIcon} alt="Stackowerflow link" />
-          </a>
+          </a> */}
           <a
             href="https://github.com/SVMaxica"
             target="_blank"

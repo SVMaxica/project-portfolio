@@ -1,31 +1,9 @@
-/* eslint-disable react/prop-types */
-// import { forwardRef } from 'react';
-// import './Tech.css';
-
-// export const Tech = forwardRef((props, ref) => {
-//   return (
-//     <div ref={ref} className="tech-wrapper">
-//       <div className="tech-content">
-//         <h1 className="tech-title">Tech</h1>
-//         <p className="tech-text">
-//           HTML, CSS, Tailwind, Flexbox, Grid, Javascript, Typescript, JSX, Json,
-//           React, React Native, React Hooks, React librarys, Web Accessibility, UX/UI Design,
-//           Rest APIs, Zustand, Node.js, MongoDB, Mongoose, Express.js, Headless
-//           CMS, Branches, Pair-programming, Github, Figma, Postman, AI, Netlify,
-//           Developer tools
-//           <br></br> and much more!
-//         </p>
-//       </div>
-//     </div>
-//   );
-// });
-
 import { forwardRef, useState, useEffect } from 'react';
 import './Tech.css';
 
 export const Tech = forwardRef((props, ref) => {
   const text =
-    'HTML, CSS, Tailwind, Flexbox, Grid, Javascript, Typescript, JSX, Json, React, React Native, React Hooks, React librarys, Web Accessibility, UX/UI Design, Rest APIs, Zustand, Node.js, MongoDB, Mongoose, Express.js, Headless CMS, Branches, Pair-programming, Github, Figma, Postman, AI, Netlify, Developer tools and much more!';
+    'HTML, CSS, Tailwind, Flexbox, Grid, Javascript, Typescript, JSX, Json, React, React Native, React Hooks, React librarys, Lottiefiles, Styled components, Web Accessibility, UX/UI Design, Rest APIs, Zustand, Node.js, MongoDB, Mongoose, Express.js, Headless CMS, Branches, Pair-programming, Github, Figma, Postman, AI, Netlify, Developer tools and much more!';
 
   const words = text.split(', ');
   const colors = ['pink', 'yellow', 'blue'];
@@ -60,7 +38,7 @@ export const Tech = forwardRef((props, ref) => {
 
         return nextHighlightedWords;
       });
-    }, 2500); // Byt ut ett ord var 4:e sekund
+    }, 1500); // Byt ut ett ord var 1,5:e sekund
 
     return () => clearInterval(interval);
   }, [words.length]);

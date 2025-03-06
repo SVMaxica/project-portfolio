@@ -14,12 +14,13 @@ export const Skills = forwardRef((props, ref) => {
           <p>HTML</p>
           <p>CSS</p>
           <p>React</p>
+          <p>React Native</p>
           <p>Tailwind</p>
           <p>Global state management</p>
           <p>Dom manipulation</p>
           <p>Styled components</p>
           <p>Animations</p>
-          {/* <p>Tailwind css</p> */}
+          <p>Tailwind css</p>
           <p>Node.js</p>
           <p>Express</p>
           <p>MongoDB</p>
@@ -34,6 +35,7 @@ export const Skills = forwardRef((props, ref) => {
           <p>VSCode</p>
           <p>Git</p>
           <p>Github</p>
+          <p>Expo</p>
           <p>Chrome Dev tools</p>
           <p>Lighthouse</p>
           <p>Postman</p>
@@ -41,7 +43,8 @@ export const Skills = forwardRef((props, ref) => {
           <p>Render</p>
           <p>MongoDB Compass</p>
           <p>MongoDB Atlas</p>
-          <p>Lint</p>
+          <p>Firebase</p>
+          <p>ESLint</p>
           <p>Figma</p>
           <p>Notion</p>
         </div>
@@ -61,7 +64,6 @@ export const Skills = forwardRef((props, ref) => {
         <div className="skills-column">
           <h3 className="upcoming-heading">Upcoming</h3>
           {/* Upcoming skills */}
-          <p>React Native</p>
           <p>Python</p>
           <p>Next.js</p>
           <p></p>
